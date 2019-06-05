@@ -17,7 +17,8 @@ virtualenv -p /usr/local/bin/python3 venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-jupyter nbconvert notebooks/github_guide_insight_slides.ipynb --to slides --post serve --template output_toggle.tpl --SlidesExporter.reveal_transition=none --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_theme=serif
+cp notebooks/github_guide_insight_slides.ipynb github_guide_insight_slides.ipynb
+jupyter nbconvert github_guide_insight_slides.ipynb --to slides --post serve --template output_toggle.tpl --SlidesExporter.reveal_transition=none --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_theme=serif
 ```
 
 # Informative Section Title
