@@ -6,7 +6,7 @@ Guide to using GitHub for Insight Fellows.
 
 Slides providing overview of contributing with teams to GitHub repos.
 
-Online slides can be found [here](https://zhampel.github.io/github-guide-insight/#/).
+Online slides can be found [here](https://zhampel.github.io/github-guide-insight/#/). (NB: The slides are currently unavailable online. I am debugging my Travis CI steps.)
 
 ## Usage
 
